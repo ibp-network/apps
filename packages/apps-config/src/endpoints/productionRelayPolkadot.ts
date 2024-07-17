@@ -839,8 +839,8 @@ export const prodParasPolkadotCommon: EndpointOption[] = [
     providers: {
       Dwellir: 'wss://asset-hub-polkadot-rpc.dwellir.com',
       'Dwellir Tunisia': 'wss://statemint-rpc-tn.dwellir.com',
-      // IBP1: 'wss://sys.ibp.network/statemint', // https://github.com/polkadot-js/apps/issues/10667
-      // IBP2: 'wss://sys.dotters.network/statemint', // wss://sys.dotters.network/statemint
+      IBP1: 'wss://sys.ibp.network/asset-hub-polkadot',
+      IBP2: 'wss://sys.dotters.network/asset-hub-polkadot',
       LuckyFriday: 'wss://rpc-asset-hub-polkadot.luckyfriday.io',
       OnFinality: 'wss://statemint.api.onfinality.io/public-ws',
       Parity: 'wss://polkadot-asset-hub-rpc.polkadot.io',
